@@ -149,6 +149,30 @@ python client.py delete <filename>
 Default server: `127.0.0.1:9999`
 
 ---
+## 🚀 Installation
+
+**1. Download the files**
+
+Download `server.py`, `client.py`, `crypto_core.py`, `tests.py` and `requirements.txt` directly from the repo and place them in the same folder.
+
+**2. Install dependency**
+```bash
+pip install -r requirements.txt
+```
+
+**3. Start the server**
+```bash
+python server.py
+```
+
+**4. Run the client**
+```bash
+python client.py upload secret.pdf --password yourpassword
+```
+
+No API keys, no config files, no setup.
+
+---
 
 ## 📡 Wire Protocol
 
